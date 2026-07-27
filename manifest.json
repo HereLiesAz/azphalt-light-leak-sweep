@@ -1,0 +1,21 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.light-leak-sweep",
+  "name": "Light Leak Sweep",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "LicenseRef-Proprietary",
+  "compat": ">=0.1",
+  "description": "A warm, organic light leak that drifts across the frame — the analog-film glow real editors reach for as a shortcut to a cinematic look.",
+  "author": "HereLiesAz",
+  "targetApps": ["com.hereliesaz.guillotine"],
+  "assets": [
+    {
+      "type": "shader",
+      "path": "assets/light-leak-sweep.fs",
+      "ui": "ui/panel.json",
+      "params": { "format": "isf" },
+      "tags": ["shader", "stylize", "light-leak", "lens-flare", "cinematic", "one-click"]
+    }
+  ]
+}
